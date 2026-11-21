@@ -4,14 +4,14 @@
 
 MyFeed is an interactive prototype of a social media recommendation system designed to make personalised recommendations more understandable and controllable.
 
-The prototype uses a rule-based recommendation system implemented in JavaScript rather than a trained machine-learning model. It demonstrates how users can understand, modify and reverse the preferences influencing their feed.
+The prototype uses a rule-based recommendation system implemented in JavaScript rather than a trained machine-learning model. It demonstrates how users can understand, modify, and reverse the preferences influencing their feed.
 
 ## Implemented Features
 
 - **Personalised feed:** Displays recommendations using category interest scores across photography, cooking, fitness and travel.
 - **Why this?:** Provides simplified explanations of why posts are recommended.
 - **Show more / Show less:** Allows users to adjust their interest in a category.
-- **Implicit preference inference:** Two likes on different posts within the same category increase its interest score.
+- **Implicit preference inference:** Two likes on different posts within the same category increase its interest score when automatic learning is enabled.
 - **Interest settings:** Allows users to directly adjust or remove category preferences.
 - **Undo:** Allows users to reverse recent preference changes.
 - **Pause learning:** Prevents automatic preference updates from likes without disabling explicit preference controls.
@@ -26,13 +26,23 @@ The prototype contains 24 predefined posts across four categories. Category scor
 
 The system simulates personalised recommendations. It does not use a trained machine-learning model, track viewing duration or retain preferences between sessions.
 
+## How to Run
+
+1. Download or clone the GitHub repository.
+
+2. Open index.html in Google Chrome.
+
+3. Interact with the feed using the recommendation explanations, preference controls and Settings page.
+
+No additional software installation or backend server is required.
+
 ## Development Evidence
 
 The [Development Log](DEVELOPMENT_LOG.md) documents the project's development stages, design decisions and verification checks.
 
 ## AI Use and Authorship
 
-ChatGPT was used to support my understanding of interaction design concepts, discuss implementation approaches and suggest JavaScript modifications. I reviewed AI suggestions against the project's objectives and made decisions about which changes to incorporate.
+ChatGPT was used to assist with writing and editing JavaScript, HTML, and CSS code. I directed the development process by providing the application's requirements and features, and reviewed the AI-generated code. AI-generated suggestions were evaluated and adapted to ensure that the implemented functionality aligned with the project's objectives and relevant intelligent interactive systems concepts. ChatGPT was also used to generate the storyboards, system diagram, design rationale, and README based on instructions provided by me, in accordance with the assignment's guidelines on AI use.
 
 The following examples demonstrate my review and adaptation of AI-assisted suggestions:
 
