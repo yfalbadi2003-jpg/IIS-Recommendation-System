@@ -79,7 +79,7 @@ subsequent recommendations.
 
 **IIS concepts:** Reversibility, slips and mistakes, visibility and the gulf of evaluation.
 
-**Verification:** Pending testing of Undo, score restoration and feedback messages.
+**Verification:** tests were successful, the undo button revreses actions and is displayed for 5 seconds. Feedback is given when user takes explicit actions.
 
 ## Stage 6 — Implicit Preference Inference
 
@@ -91,7 +91,7 @@ subsequent recommendations.
 
 **IIS concepts:** System inference, cautious adaptation and uncertainty in implicit feedback.
 
-**Verification:** Pending testing of repeated likes and resulting score changes.
+**Verification:** tests were successful, two likes increase interest score.
 
 ## Stage 7 — Global Controls and Final Refinements
 
@@ -103,7 +103,7 @@ subsequent recommendations.
 
 **IIS concepts:** Horvitz's G1 and G2, global controls, mental models, and inspectable, editable and forgettable memory.
 
-**Verification:** Pending testing of Pause, Reset and the About page.
+**Verification:** tests are successful, two likes don't increase the interest scores when learning is paused, and the about page is displayed. Additionally, when learning is reset, interest scores are reversed back to their initial settings.
 
 ## Scope and Technical Limitations
 
